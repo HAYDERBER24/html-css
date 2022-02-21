@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODELO DE CAIXAS</title>
+    <style>
+    h1.titulocomdegrade{
+    background: linear-gradient(to right,#bc2abf 25%, #5529bc 75% );
+    }
+
+
+    h1{
+    
+    background-color: lightgrey;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(196, 114, 14);
+    
+    border: 10px solid darkgray; /* esta linha simplifica as de cima*/
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    padding: 75px 10px 100px 50px ; /* esta linha simplifica as de cima lo , se los 4 son del mesmo valor se colca el valor una vez solamente exemp10px    cuando colocamos dos valores encima e direita iguais, baixo e izquerda igual*/
+
+    margin-top: 10px;
+    margin-bottom: 40px;   
+    margin-left: auto;
+    margin-right: auto; /*  auto centraliza las dos margenes*/
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;
+
+    outline: 5px dashed salmon; /*simplifica las 3 lineas de encima en ese orden  ( espesura, modelo y color)*/
+}
+a{
+    display: block;
+    border-width: 10px;
+    border-style: solid;
+    border-color: crimson;
+    
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="titulocomdegrade">exemplo de caixas BOX-LEVEL</h1>
+    <p>paragrafos tambem sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>vamos ver como tudo isso funciona.</p>
+</body>
+</html>
