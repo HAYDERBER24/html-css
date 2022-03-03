@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(136, 164, 189);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody tr:nth-child(odd){
+            background-image: linear-gradient(to right, rgb(161, 161, 167), rgb(231, 231, 181));
+
+
+        }
+        thead{
+            color: white;
+            background-color: gray;
+            position: sticky;
+            top: -1px;
+        }
+       
+        td.numero{
+            text-align: right;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>tabelas grandes</h1>
+    <!--
+ANATOMIA DE TABELAS GRANDES
+TABLE
+        CAPTION
+        THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH
+
+
+    -->
+    <table>
+        <caption>populaçao do brasil por estado</caption>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th style="width: 50px;">populaçao</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="numero">45.919.049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="numero">21.168.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">17.264.791</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td class="numero"><strong>38.433.582</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut itaque recusandae corporis. Quos modi, consequuntur quisquam temporibus unde tenetur veritatis facere perferendis illum dicta culpa aut dolor ullam voluptas!</p>
+</body>
+</html>
